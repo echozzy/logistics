@@ -1,0 +1,19 @@
+{
+    "name": "echozzy/logistics",
+    "description": "查询快递物流信息",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "echozzy",
+            "email": "348858954@qq.com"
+        }
+    ],
+    "require": {
+    	"php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zzy\\Logistics\\": "src"
+        }
+    }
+}
