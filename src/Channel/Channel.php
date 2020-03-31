@@ -96,7 +96,7 @@ abstract class Channel
      *
      * @return array
      */
-    abstract public function request(string $code, string $company = ''): array;
+    abstract public function request(string $code, array $config = [], string $company = ''): array;
 
     /**
      * 转换为数组.

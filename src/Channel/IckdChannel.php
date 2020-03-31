@@ -47,7 +47,7 @@ class IckdChannel extends Channel
      *
      * @throws \Zzy\Logistics\Exceptions\HttpException
      */
-    public function request(string $code, string $company = ''): array
+    public function request(string $code, array $config = [], string $company = ''): array
     {
         try {
             $urlParams = [
