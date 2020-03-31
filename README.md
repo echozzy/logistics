@@ -10,7 +10,7 @@
 [![License](https://poser.pugx.org/wythe/logistics/license)](https://packagist.org/packages/wythe/logistics)
 
 ### 重构版本
-1.0.0
+1.0.4
 
 ### 支持查询接口平台
 
