@@ -52,6 +52,13 @@ class KuaiDiBirdChannel extends Channel
         if(!$config){
             $config = $this->getChannelConfig();
         }
+        if(!is_bool($config['vip'])){
+            if($config['vip']=='false'){
+                $config['vip'] = false;
+            }else{
+                $config['vip'] = true;
+            }
+        }
         return [
             'EBusinessID' => $config['app_secret'],
             'DataType' => 2,
