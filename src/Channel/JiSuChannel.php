@@ -14,7 +14,7 @@ use Zzy\Logistics\Exceptions\HttpException;
 /**
  * 极速数据物流查询.
  */
-class JiSuChannel extends Channel
+class JisuChannel extends Channel
 {
     /**
      * JiSuChannel constructor.

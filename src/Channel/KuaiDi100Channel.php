@@ -9,7 +9,7 @@ declare(strict_types=1);
 
 namespace Zzy\Logistics\Channel;
 
-class KuaiDi100Channel extends Channel
+class Kuaidi100Channel extends Channel
 {
     /**
      * 构造函数.

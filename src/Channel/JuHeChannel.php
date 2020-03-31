@@ -12,7 +12,7 @@ namespace Zzy\Logistics\Channel;
 /**
  * 聚合数据 查询物流接口.
  */
-class JuHeChannel extends Channel
+class JuheChannel extends Channel
 {
     /**
      * JuHeChannel constructor.

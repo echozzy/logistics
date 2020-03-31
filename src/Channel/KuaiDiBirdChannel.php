@@ -14,7 +14,7 @@ use Zzy\Logistics\Traits\HttpRequest;
 /**
  * 快递鸟查询物流接口.
  */
-class KuaiDiBirdChannel extends Channel
+class KuaidibirdChannel extends Channel
 {
     use HttpRequest;
 

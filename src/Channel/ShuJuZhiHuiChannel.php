@@ -14,7 +14,7 @@ use Zzy\Logistics\Exceptions\HttpException;
 /**
  * 数据智汇 查询物流接口.
  */
-class ShuJuZhiHuiChannel extends Channel
+class ShujuzhihuiChannel extends Channel
 {
     /**
      * 错误信息.
